@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    background-color: lavender;
+}
+.container{
+    background-color: rgb(248, 239, 239);
+}
+.cent{
+    color: red;
+    font: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sup{
+font-family: 'Courier New', Courier, monospace;
+}
+.twenty{
+    background-color: darkslategrey;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    position: sticky;
+}
+.spence{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+}
+.na{
+    color: white;
+    padding-top: 20%;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 50px;
+}
+.ne{
+    background-image: url(../images/img\ one.jpg);
+    color: white;
+    margin-bottom: 55px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-top: 65px;
+    font: 3em sanserif;
+}
+.new{
+    padding-top: 5%;
+    
+    margin-bottom: 50px;
+}
+.in{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 60px;
+}
+.sho{
+    padding-left: 50px;
+    padding-bottom: 60px;
+    padding-top: 50px;
+    font: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.shos{
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-bottom: 60px;
+    font: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ter{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.spring{
+    background-color: rgb(244, 245, 245);
+}
+.summer{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    size: 30px;
+}
+.div{
+    background-color: rgb(244, 245, 245);
+    padding-bottom: 70px;
+}
+.women{
+    padding-left: 50px;
+    word-spacing: 5px;
+    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom: 1px black thick solid;
+}
+.search{
+    display: flex;
+    justify-content: space-between;
+}
+.cap{
+    width: 70px;
+    align-items: center;
+    text-align: center;
+}
+.shoe{
+    margin-top: 50px;
+}
+.form{
+    display: flex;
+    justify-content: space-between;
+    border-top: 5px black;
+}
+.sup{
+    display: flex;
+    justify-content: space-between;
+}
+.example{
+    align-items: center;
+}
+.fashion{
+    padding-left: 85px;
+    font-family: 'Courier New', Courier, monospace;
+}
