@@ -72,7 +72,10 @@ font-family: 'Courier New', Courier, monospace;
     font: 2em;
     font-family: 'Times New Roman', Times, serif;
 }
+
 .ter{
+    text-decoration: underline white;
+    color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .spring{
@@ -124,4 +127,17 @@ font-family: 'Courier New', Courier, monospace;
 .fashion{
     padding-left: 85px;
     font-family: 'Courier New', Courier, monospace;
+}
+.support{
+    display: flex;
+}
+@media screen and(max-width: 600px) {
+    body{
+        background-color: blueviolet;
+        display: block;
+    }
+    .container{
+        background-color: blueviolet;
+        display: block;
+    }
 }
