@@ -30,6 +30,9 @@ font-family: 'Courier New', Courier, monospace;
     display: flex;
     justify-content: space-between;
     padding-left: 50px;
+    position: sticky;
+    padding-top: 15px;
+    padding-right: 35px;
 }
 .na{
     color: white;
@@ -95,7 +98,7 @@ font-family: 'Courier New', Courier, monospace;
 }
 .women{
     padding-left: 50px;
-    word-spacing: 5px;
+    word-spacing: 6px;
     padding-top: 20px;
     font-family: 'Courier New', Courier, monospace;
     border-bottom: 1px black thick solid;
@@ -130,14 +133,11 @@ font-family: 'Courier New', Courier, monospace;
 }
 .support{
     display: flex;
+    padding-left: 10px;
 }
-@media screen and(max-width: 600px) {
-    body{
-        background-color: blueviolet;
-        display: block;
-    }
-    .container{
-        background-color: blueviolet;
-        display: block;
+@media (max-width: 940px) {
+    .container {
+      flex-direction: column;
+      margin-top: 60px;
     }
 }

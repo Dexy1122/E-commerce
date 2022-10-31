@@ -1,17 +1,39 @@
 
 body{
-    margin: 0;
-    padding: 0;
-    background: linear-gradient(to bottom right, rgb(244, 245, 245));
+    margin: 0 ;
+    padding-top: 20px;
+   background-color: rgb(244, 245, 245);
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding-bottom: 150px;
+   
+    
+}
+.arrow{
+    padding-left: 5px;
 }
 .spence{
     display: flex;
     justify-content: space-between;
+    position: sticky;
+    padding-top: 10px;
+    padding-right: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(244, 245, 245);
     padding-left: 50px;
+}
+.sup{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: space-between;
+}
+.support{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7px;
+}
+.fashion{
+    padding-left: 85px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .CartContainer{
     width: 70%;
@@ -19,6 +41,9 @@ body{
     background-color: lavender;
     border-radius: 20px;
     box-shadow: 0px 10px 20px #1687d933;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-right: 150px;
 }
 .Header{
     margin: auto;
@@ -166,4 +191,15 @@ hr{
     font-size: 16px;
     font-family: 'Open Sans';
     font-weight: 600;  color: lavender;
+}
+@media (max-width: 940px) {
+    .container {
+      flex-direction: column;
+      margin-top: 60px;
+    }
+    .ter{
+        text-decoration: none;
+        text-decoration: underline white;
+        color: black;
+    }
 }

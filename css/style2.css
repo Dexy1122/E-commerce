@@ -11,7 +11,7 @@
 }
 
 
-* {
+*{
   box-sizing: inherit;
   padding: 0;
   margin: 0;
@@ -23,13 +23,22 @@
   font-family: 'Courier New', Courier, monospace;
   position: sticky;
 }
+.fashion{
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 65px;
+}
+.spence{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 150%;
+}
 .fa-sharp{
   align-items: center;
-  text-align: right;
   text-decoration: none;
   display: flex;
   justify-content: space-between;
-  color: rgb(244, 245, 245);
+  color: #000;
+  padding-right: 35px;
+  padding-top: 10px;
 }
 .home{
   display: flex;
@@ -40,9 +49,10 @@
   padding-left: 90%;
   height: 50%;
   width: 106.5%;
+  position: sticky;
 }
 
-html {
+html{
   box-sizing: border-box;
 }
 
@@ -204,4 +214,10 @@ tfoot {
   inline-size: 375px;
   overflow: auto;
   padding: 2em;
+}
+@media (max-width: 940px) {
+  .home{
+    flex-direction: column;
+    margin-top: 60px;
+  }
 }
